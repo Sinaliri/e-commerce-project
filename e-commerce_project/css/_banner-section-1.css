@@ -1,0 +1,12 @@
+.banner-section-1  .banner1-img-hover {
+    overflow: hidden;
+   
+}
+.banner-section-1  .banner1-img-hover a img{
+    transition: ease 1s;
+}
+
+.banner-section-1  .banner1-img-hover a :hover{
+    /* transform: scale(1.1) rotate( 10deg); */
+    transform: scale(1.1);
+} 

@@ -1,0 +1,114 @@
+@import url(../css/_top-nav.css);
+@import url(../css/_slider.css);
+@import url(../css/_shipping.css);
+@import url(../css/_adsnav.css);
+@import url(../css/_catnav.css);
+@import url(../css/_specialoffer.css);
+@import url(../css/_popular-products.css);
+@import url(../css/_banner-section-1.css);
+@import url(../css/_mobile-section.css);
+@import url(../css/_footer.css);
+
+@font-face {
+    font-family: Vazir-Medium;
+    src: url(../fonts/Vazir-Medium-FD.eot ) format("eot"),
+    url(../fonts/Vazir-Medium-FD.woff) format("woff"),
+    url(../fonts/Vazir-Medium-FD.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+body , *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazir-Medium;
+    
+}
+body{
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+li,ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+    margin: 0;
+}
+@media (max-width:576px) {
+    .mt-csm-3{
+        margin-top: 1rem !important;
+    }
+    .my-csm-0,
+    .mt-csm-0{
+        margin-top: 0 !important;
+    }
+    
+}
+@media (max-width:991px) {
+    .mt-clg-3{
+        margin-top: 1rem !important;
+    }
+    .mb-cmd{
+
+    }
+ 
+    
+}
+@media (min-width:1200px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1340px;
+    }
+}
+
+.owl-carousel .owl-nav.disabled{
+    display: block;
+}
+.owl-carousel .owl-nav{
+    position: absolute;
+    display: flex !important; 
+    width: 100%;
+    top: 100px;
+}
+.owl-carousel-brand .owl-nav{
+    top: 60px !important;
+}
+.owl-carousel .owl-dots{
+    display: none;
+
+}
+.owl-carousel .owl-nav .owl-next{
+    left: -9px;
+    position: absolute;
+}
+.owl-carousel .owl-nav .owl-prev{
+    right:-9px;
+    position: absolute;
+}
+.owl-carousel .owl-nav .owl-next span,.owl-carousel .owl-nav .owl-prev span{
+display: block;    
+font-size: 65px;
+background-color: #fff;
+box-shadow: 0px 0px 12px 0px #c7c7c7;
+}
+.owl-carousel .owl-nav .owl-next ,.owl-carousel .owl-nav .owl-prev {
+    width: 46px;
+    background-color:red;
+
+}
+.owl-carousel .owl-nav .owl-next:focus,
+.owl-carousel .owl-nav .owl-next:focus span,
+.owl-carousel .owl-nav .owl-prev:focus ,
+.owl-carousel .owl-nav .owl-prev:focus span{
+    outline: none !important;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    color: #000 !important;
+}
