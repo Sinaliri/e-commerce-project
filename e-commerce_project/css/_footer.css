@@ -1,0 +1,36 @@
+.news-letter-s1 h6{
+    font-size: 18px;
+}
+.news-letter-s1 p{
+    font-size:16px;
+}
+ .news-letter-s1,.news-letter-s2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+.news-letter-s2 p{
+    font-size: 16px;
+    line-height: 33px;
+}
+.news-letter-s2 p strong{
+    font-weight:bold;
+
+}
+.news-letter-s3 .input-footer-email::-webkit-input-placeholder{
+    text-align: center;
+    font-size: 14px;
+}
+.news-letter-s3 .input-footer-email{
+    border-radius:  0 0 !important;
+}
+.news-letter-s3 .input-group-append button{
+    font-size: 14px !important;
+    
+}
+.main-section-footer h5{
+    font-size: 15px;
+    border-bottom: 3px solid #dc3545; 
+    padding-bottom: 10px;
+    display: inline-flex;
+}
