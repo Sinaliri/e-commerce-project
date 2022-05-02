@@ -241,7 +241,46 @@
                       </li>
 
                   </ul>
-                  <a href="" class="text-warning text-decoration-none">تخفیفات ویژه</a>
+                  <a href="" class="text-warning text-decoration-none login-btn" data-toggle="modal" data-target="#login-form">
+                    <i class="fa-regular fa-user"></i>
+                    <span class=""> ورود</span>
+                  </a>
+                  <div class="modal fade" id="login-form" tabindex="-1" role="dialog" >
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class=" modal-header modal-header-custom border-0">
+                          <h5 class="modal-title text-color-black d-block text-center" id="exampleModalLabel">ورود به سایت</h5>
+
+                        </div>
+                        <div class="modal-body text-color-black">
+                          <form class="login-form">
+                            <div class="form-group">
+                              <label for="exampleInputEmail1" class="m-0">آدرس ایمیل</label>
+                              <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" placeholder="....@...." aria-describedby="emailHelp">
+                              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1" class="m-0">کلمه عبور</label>
+                              <input type="password" class="form-control form-control-sm" placeholder="کلمه عبور..." id="exampleInputPassword1" >
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input ml-0 mt-2" id="exampleCheck1">
+                              <label class="custom-control-label" for="exampleCheck1">مرا به خاطر بسپار</label>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-sm btn-block mt-3">ورود</button>
+                          </form>
+                        </div>
+                        <div class="modal-footer border-0 d-flex justify-content-around pt-0 ">
+                          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            
+                          <button type="button" class="btn btn-primary">Save changes</button> -->
+                          <a href="#">عضویت</a>
+ 
+                          <a href="#">فرامشی رمز</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </nav>
         </div>

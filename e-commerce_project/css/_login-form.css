@@ -1,0 +1,44 @@
+.text-color-black{
+    color: black;
+}
+.login-form input[type=email],.login-form input[type=password]{
+    border: none;
+    border-bottom: 2px solid #efefef;
+    border-radius: 0;
+}
+.login-form label{
+    font-size: 14px;
+}
+.modal-header-custom {
+justify-content: center !important;
+}
+.modal-header-custom h5{
+    font-size: 16px !important;
+    font-weight: 100;
+
+}
+/* #login-form .modal-dialog .modal-content .modal-body .form-check input{
+    margin: 0;
+    margin-top: 10px;
+} */
+#login-form .modal-footer a{
+    font-size: 16px;
+    color: rgb(0, 149, 255); 
+    text-decoration: none;
+}
+#login-form .modal-footer a:hover{
+   
+    color: green; 
+   
+}
+
+#login-form .custom-checkbox lable{
+    padding-top: 10px;
+}
+.login-btn span{
+    font-size: 16px;
+   
+}
+.login-btn i{
+    vertical-align: -4px;
+}
