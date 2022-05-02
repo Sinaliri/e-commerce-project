@@ -1,3 +1,6 @@
+:root{
+    --text-color:#4e4d4d;
+}
 .news-letter-s1 h6{
     font-size: 18px;
 }
@@ -30,7 +33,49 @@
 }
 .main-section-footer h5{
     font-size: 15px;
-    border-bottom: 3px solid #dc3545; 
+    border-bottom: 3px solid #a09f9f; 
     padding-bottom: 10px;
     display: inline-flex;
 }
+.main-section-footer .footer-nav-custom  li a{
+    padding-right: 0;
+    color: #4e4d4d;
+    font-size: 14px !important;
+    transition: 0.5S ease;
+
+}
+.main-section-footer .footer-nav-custom  li a:hover{
+    color: #a09f9f;
+    transition: 0.5S ease;
+}
+.support-rules{
+    font-size: 40px;
+    color: rgb(53, 124, 139);
+}
+.tel-support p,
+.tel-support a{
+    font-size: 14px;
+    color: var(--text-color);
+}
+.social-icon{
+    font-size: 15px;
+}
+.social-icon ul li a{
+  color: var(--text-color);; 
+  transition: 0.5s ease; 
+}
+.social-icon ul li a.twitter:hover{
+    color: rgba(0, 153, 255, 0.515);  
+  }
+  .social-icon ul li a.instagram:hover{
+    color: rgba(255, 0, 0, 0.67);  
+  }
+  .social-icon ul li a.linkedin:hover{
+    color: rgb(242, 255, 0);  
+  }
+  .social-icon ul li a.facebook:hover{
+    color: rgba(0, 26, 255, 0.738);  
+  }
+  .social-icon ul li a.rss:hover{
+    color: rgba(255, 179, 0, 0.833);  
+  }
