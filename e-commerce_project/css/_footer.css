@@ -1,6 +1,10 @@
 :root{
     --text-color:#4e4d4d;
 }
+.news-letter .row{
+    margin-top: -77px;
+    box-shadow: 0 0 1px 1px rgb(0,0,0,0.075) !important;
+}
 .news-letter-s1 h6{
     font-size: 18px;
 }
