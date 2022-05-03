@@ -46,3 +46,9 @@
     .describtion-header .icon-wrapper i.fa-heart:hover{
        color: red;
     }
+    .product-benefit{
+        font-size: 16px;
+    }
+    .benefit-list li a i{
+        font-size: 10px;
+    }

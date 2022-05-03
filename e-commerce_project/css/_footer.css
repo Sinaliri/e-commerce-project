@@ -41,9 +41,9 @@
     padding-bottom: 10px;
     display: inline-flex;
 }
-.main-section-footer .footer-nav-custom  li a{
+ .footer-nav-custom  li a{
     padding-right: 0;
-    color: #4e4d4d;
+    color: #4e4d4d !important;
     font-size: 14px !important;
     transition: 0.5S ease;
 
