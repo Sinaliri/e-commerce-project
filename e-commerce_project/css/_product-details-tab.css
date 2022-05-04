@@ -28,3 +28,41 @@
     margin-right: 15px;
 
 }
+.product-desc-step li{
+    border-right: 1px solid #a0a0a0;
+    font-size: 16px;
+    line-height: 42px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.product-desc-step li i{
+    color: #a0a0a0 !important;
+    font-size: 20px;
+    position: absolute;
+    right: -10px;
+    top: -14px;
+}
+.product-desc-step li div{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.custom-tab-pane-product-detail ul li .key , .custom-tab-pane-product-detail ul li .value{
+    font-size: 15px;
+    background-color: rgb(240 232 232 / 73%);
+    height: 55px;
+
+}
+.custom-tab-pane-product-detail ul li .key{
+    flex: 0 0 20%;
+}
+.custom-tab-pane-product-detail ul li .value{
+    flex: 0 0 78%;
+}
+.custom-tab-pane-product-detail ul p {
+   font-size: 16px;
+}
+.custom-tab-pane-product-detail ul p i{
+    vertical-align: -3px;
+    
+ }
