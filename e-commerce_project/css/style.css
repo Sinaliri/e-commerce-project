@@ -1,4 +1,4 @@
-@import url(../css/_top-nav.css);
+ @import url(../css/_top-nav.css);
 @import url(../css/_slider.css);
 @import url(../css/_shipping.css);
 @import url(../css/_adsnav.css);
@@ -11,6 +11,7 @@
 @import url(../css/_login-form.css);
 @import url(../css/_product-breadcrumb.css);
 @import url(../css/_product-details-tab.css);
+@import url(../css/zoomy.css);
 
 @font-face {
     font-family: Vazir-Medium;
@@ -114,4 +115,10 @@ box-shadow: 0px 0px 12px 0px #c7c7c7;
 }
 .owl-theme .owl-nav [class*='owl-']:hover{
     color: #000 !important;
+}
+.zoom-mousemove{
+    border: none !important;
+}
+.value-lg::-webkit-scrollbar{
+    display: none;
 }
