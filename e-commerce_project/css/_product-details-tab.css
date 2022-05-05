@@ -66,3 +66,42 @@
     vertical-align: -3px;
     
  }
+ .add-comment p:first-child {
+     font-size: 20px;
+     color: #333;
+ }
+ .add-comment p:nth-child(2) {
+    font-size: 16px;
+}
+.user-detail i.fa-user{
+    font-size: 58px;
+}
+.user-detail .username{
+    font-size: 15px;
+}
+.f-15{
+    font-size: 15px;
+
+}
+.f-16{
+    font-size: 16px;
+
+}
+.f-18{
+    font-size: 18px;
+
+}
+.f-12{
+    font-size: 12px;
+
+}
+.comment-body ul li{
+    font-size: 14px;
+}
+.comment-body ul li i{
+    font-size: 8px;
+    color: rgb(49, 49, 148);
+}
+.customer-comment input::-webkit-input-placeholder,.customer-comment textarea::-webkit-input-placeholder{
+    font-size: 14px;
+}
